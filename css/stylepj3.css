@@ -1,0 +1,109 @@
+* {
+    padding: 0 ;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url(../img/white.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-image: url(../img/backgroundcyan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover{
+    background-color: rgb(255, 0, 0)2;
+}
+
+a:hover{
+    background-color: #A9A9A9
+}
+
+.link.active, .link:hover {
+    background-color: whitesmoke
+}
+
+.discord {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-family: cursive
+}
+
+.conteiner {
+    display: flex
+}
+
+.child {
+    width: 20%;
+    height: 20px;
+    white-space: 100%;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-family: cursive
+}
+
+.salve {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-family: cursives;
+    color: purple
+}
+.cont {
+    display: flex;
+}
+
+.space {
+    width: 20%;
+    height: 20px;
+    white-space: 100%;
+}
+
+.imgprj {
+    display: flex;
+    align-items: center;
+    font-size: 95;
+     
+   }
